@@ -2,7 +2,7 @@ worker = input()
 hours = int(input())
 salary = float(input())
 
-account = round(salary, 2) * hours
+account = salary * hours
 
 print("NUMBER = "+worker)
-print("SALARY = U$ "+str(account))
+print(f"SALARY = U$ {account:.2f}")
