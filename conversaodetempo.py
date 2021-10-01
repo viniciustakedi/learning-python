@@ -16,6 +16,4 @@ else:
     else:
         seconds = hours / 60 
 
-
-
 print(f"{int(hours)}:{int(minutes)}:{int(seconds)}")
